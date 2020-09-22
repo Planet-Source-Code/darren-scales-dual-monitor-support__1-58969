@@ -1,0 +1,34 @@
+Screen class usage:
+
+.Count([EnabledOnly As Boolean]) As Integer
+    Returns the number of available screens. If 'EnabledOnly' is True, only the number of enabled screens is returned.
+
+.Enabled(Screen As Integer) As Boolean
+    Returns True if screen number 'Screen' is enabled (ie. monitor attached). Returns False if disabled.
+
+.Height(Screen As Integer) As Long
+    Returns the height of screen 'Screen' in pixels.
+
+.Left(Screen As Integer) As Long
+    Returns where the left of the screen 'Screen' is, in comparison to all screens put together.
+
+.PrimaryMon As Integer
+    Returns the number of the primary screen.
+
+.Top(Screen As Integer) As Long
+    Returns where the top  of the screen 'Screen' is, in comparison to all screens put together.
+
+.Width(Screen As Integer) As Long
+    Returns the width of screen 'Screen' in pixels.
+
+.WorkHeight(Screen As Integer) As Long
+    Returns the available working height area in screen 'Screen'
+
+.WorkLeft(Screen As Integer) As Long
+    Returns where the left of the screen 'Screen' is, in comparison to all screens put together, baring in mind toolbars (ie. taskbar)
+
+.WorkTop(Screen As Integer) As Long
+    Returns where the top of the screen 'Screen' is, in comparison to all screens put together, baring in mind toolbars (ie. taskbar)
+
+.WorkWidth(Screen As Integer) As Long
+    Returns the available working width area in screen 'Screen'
